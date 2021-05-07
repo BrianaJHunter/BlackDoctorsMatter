@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<style>
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: arial;
+  color: #000;
+  height: auto;
+}
+
+.page-container {}
+
+.header-container {
+  padding: 12px 0;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+img.logo {
+  height: 75px;
+  width: 75px;
+  max-width: 150px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+  font-size: 30px;
+  padding: 8px;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+a:hover {
+  font-style: italic;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+a#shop {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+img.icon {
+  width: 100%;
+  max-width: 40px;
+  height: auto;
+}
+
+/* Scale Image */
+.scale {
+  transition: all 0.2s ease-in-out;
+}
+.scale:hover {
+  transform: scale(1.5);
+}
+
+.page-content {
+  margin: auto;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+}
+
+h1 {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+p {
+  font-size: 20px;
+}
+
+/* Custom Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+  background: #000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
+
+/*MOBILE RESPONSIVENESS */
+@media screen and (max-width: 920px) {
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  img.icon {
+    max-width: 25px;
+    height: 25px;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<div class="page-container">
+  <!-- BEGINNING OF HEADER -->
+  <div class="header-container">
+    <div class="row">
+      <!--brand logo-->
+      <div class="col-sm-3">
+        <a href="https://blackdoctorsmatter.org"><img src="https://i.ibb.co/5Rt9Sp9/bdm-logo-resized.png" class="logo" alt="Black-Doctors-Matter-logo" border="0">
+      </div>
+
+      <!--page menu-->
+      <div class="col-sm-6">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#info">Info</a></li>
+        </ul>
+      </div>
+
+      <!--shop/search icons-->
+      <div class="col-sm-3">
+        <a href="#search"><img class="icon scale" src="https://i.ibb.co/bK7SK40/search-icon.png" alt="search-bar" border="0"></a>
+        <a href="https://blackdoctorsmatter.org/cart"><img class="icon scale" src="https://i.ibb.co/7pZsMwq/cart-icon.png" alt="shopping-cart" border="0"></a>
+      </div>
+    </div>
+    <!-- END OF HEADER CONTAINER -->
+  </div>
+
+  <!-- BANNER IMAGE full width -->
+  <div class="container col-sm-12">
+    <img src="https://i.ibb.co/QJGTSVG/banner.png" alt="models-walking" border="0" style="width: 1600px; height: auto;">
+  </div>
+  <!-- MISSION STATEMENT -->
+  <div class="row col-sm-12">
+    <div class="page-content">
+      <h1>BLACK DOCTORS MATTER</h1>
+      <p style="text-align: justify;">We are an organization dedicated to promoting the advancement of African Americans in pursuit of Doctoral status. Through our products, community engagement, and stories, we inspire, motivate, and assist in ensuring continued black excellence in all fields represented under the certification of doctor. A portion of all proceeds go towards student scholarships, donations, and experiences that align with our mission.</p>
+      <!-- SHOP URL -->
+      <a id="shop" href="#shop">SHOP NOW</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
