@@ -60,6 +60,7 @@ a#shop {
   font-size: 16px;
   font-weight: bold;
   text-decoration: underline;
+  padding: 20px 0;
 }
 
 img.icon {
@@ -168,7 +169,7 @@ p {
   <!-- MISSION STATEMENT -->
   <div class="row col-sm-12">
     <div class="page-content">
-      <h1>BLACK DOCTORS MATTER</h1>
+      <h1 style="padding: 10px 0;">BLACK DOCTORS MATTER</h1>
       <p style="text-align: justify;">We are an organization dedicated to promoting the advancement of African Americans in pursuit of Doctoral status. Through our products, community engagement, and stories, we inspire, motivate, and assist in ensuring continued black excellence in all fields represented under the certification of doctor. A portion of all proceeds go towards student scholarships, donations, and experiences that align with our mission.</p>
       <!-- SHOP URL -->
       <a id="shop" href="#shop">SHOP NOW</a>
